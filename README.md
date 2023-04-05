@@ -242,4 +242,19 @@ editor and go back to the terminal like this.
 ```
 <img src="images/26.png">
 
+========================================================================================================
+
+# How to Search in Vim/Vi
+
+```
+1) first of all we have to open the any file in vi editor.
+2) press ESC
+3) then we have to write like this :
+%s/(searching element)
+Let's take an example.
+```
+
+<img src="images/27.png">
+
+========================================================================================================
 
