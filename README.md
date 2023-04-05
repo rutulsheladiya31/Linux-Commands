@@ -203,3 +203,43 @@ sudo chgrp root first.txt
 
 ========================================================================================================
 
+# Vi or Vim for file editing
+
+=> we can easily edit the file using vi editor.
+
+```
+1) vi <file name>
+```
+<img src="images/22.png">
+
+```
+
+2) vi editor will open
+```
+<img src="images/23.png">
+
+```
+
+3) now if we want to insert then press I so it will convert into insert mode so
+we can insert content.
+```
+
+<img src="images/24.png">
+
+```
+4) now after inserting press ESC.
+```
+
+```
+5) then press : and write wq like this :wq it will save the file and exit from the vi
+editor and go back to the terminal like this.
+```
+
+<img src="images/25.png">
+
+```
+6) it will back to the terminal
+```
+<img src="images/26.png">
+
+
