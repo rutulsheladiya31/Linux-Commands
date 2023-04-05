@@ -258,3 +258,15 @@ Let's take an example.
 
 ========================================================================================================
 
+# How Do You Do A Search And Replace in Vim/Vi
+
+```
+1) first of all we have to open the any file in vi editor.
+2) press ESC
+3) then we have to write like this :
+%s/(searching element)/(enter text you want tor replace)
+* Here we search the language and then replace it with lan.
+```
+<img src="images/28.png">
+
+<img src="images/29.png">
