@@ -186,3 +186,20 @@ the file ownership from rutul to root like this
 
 ========================================================================================================
 
+# Change group ownership
+
+```
+
+=> using chgrp command we can change the group ownership.
+=> using this command we can check the file ownership & group ownership like this
+ Ls –l <file name>
+=> here we can the group ownership is installation.
+=> now we will change the group ownership from installation to root using this command.
+
+sudo chgrp root first.txt
+```
+
+<img src="images/21.png">
+
+========================================================================================================
+
