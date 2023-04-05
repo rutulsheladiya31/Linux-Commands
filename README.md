@@ -344,7 +344,7 @@ Let's take an example.
 
 <img src="images/37.png">
 
-<img src="images/38.png">
+<img src="images/38.jpeg">
 
 ### 8) write a command to rename that file.
 
@@ -353,7 +353,7 @@ Let's take an example.
 => mv [old file name] [new file name]
 ```
 
-<img src="images/39.png">
+<img src="images/39.jpeg">
 
 ### 9) write a command to make a copy of a file with another name.
 
@@ -362,7 +362,7 @@ Let's take an example.
 => cp [source filename] [copy filename]
 ```
 
-<img src="images/40.png">
+<img src="images/40.jpeg">
 
 ### 10) write a command to show the list of files in folder.
 
@@ -371,7 +371,7 @@ Let's take an example.
 => ls command will only show the all files. ls –l command will show all the file with it’s permission like this
 ```
 
-<img src="images/41.png">
+<img src="images/41.jpeg">
 
 ### 11) write a command to move that file to desktop.
 
@@ -380,7 +380,7 @@ Let's take an example.
 => mv [filename] [destination]
 ```
 
-<img src="images/42.png">
+<img src="images/42.jpeg">
 
 
 ### 12) write a command to change permissions of the file.
@@ -389,7 +389,7 @@ Let's take an example.
 => for change the file permission we can use the chmod command.
 ```
 
-<img src="images/43.png">
+<img src="images/43.jpeg">
 
 ```
 => here we can see the in third.txt file
@@ -399,7 +399,7 @@ Let's take an example.
 => now let’s change the permission of user. We will remove the write permission from the user and add execute permission like this
 ```
 
-<img src="images/44.png">
+<img src="images/44.jpeg">
 
 ### 13) write a command to delete file.
 
@@ -454,7 +454,7 @@ Let's take an example.
 => wget[url]
 ```
 
-<img src="images/50.png">
+<img src="images/50.jpeg">
 
 ### 19) Write command to see last 10 lines of a file.
 
@@ -462,7 +462,7 @@ Let's take an example.
 => basically for that we can use the tail command it will bydefault show the last 10 line of the file.
 ```
 
-<img src="images/51.png">
+<img src="images/51.jpeg">
 
 ### 20) Write command to see history of a file.
 
@@ -470,7 +470,7 @@ Let's take an example.
 => For getting the file history we can use the stat command.
 ```
 
-<img src="images/52.png">
+<img src="images/52.jpeg">
 
 
 
