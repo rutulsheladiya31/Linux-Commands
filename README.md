@@ -147,7 +147,7 @@
 
 <img src="images/16.png">
 
-========================================================================================================
+===================================================
 
 # List all running process
 
@@ -155,7 +155,7 @@
 
 <img src="images/17.png">
 
-========================================================================================================
+===================================================
 
 # Find particular process by it's name
 
@@ -163,7 +163,7 @@
 
 <img src="images/18.png">
 
-========================================================================================================
+===================================================
 
 # Change file owner and group
 
@@ -184,7 +184,7 @@ the file ownership from rutul to root like this
 ```
 <img src="images/20.png">
 
-========================================================================================================
+===================================================
 
 # Change group ownership
 
@@ -201,7 +201,7 @@ sudo chgrp root first.txt
 
 <img src="images/21.png">
 
-========================================================================================================
+===================================================
 
 # Vi or Vim for file editing
 
@@ -242,7 +242,7 @@ editor and go back to the terminal like this.
 ```
 <img src="images/26.png">
 
-========================================================================================================
+===================================================
 
 # How to Search in Vim/Vi
 
@@ -256,7 +256,7 @@ Let's take an example.
 
 <img src="images/27.png">
 
-========================================================================================================
+===================================================
 
 # How Do You Do A Search And Replace in Vim/Vi
 
@@ -271,7 +271,207 @@ Let's take an example.
 
 <img src="images/29.png">
 
-=======================================================================
-=======================================================================
+===================================================
+===================================================
+
+# Linux Practical Exam
+
+### 1) Write a command to create new folder.
+
+```
+=> mkdir <folder name >
+=> Here we are creating test folder using mkdir command.
+```
+
+<img src="images/30.png">
+
+### 2) Write a command to find the current path of the folder.
+
+```
+=> pwd
+=> using pwd command we can find the current path of the folder.
+```
+
+<img src="images/31.png">
+
+### 3) write a command to move into new created folder.
+
+```
+=> cd
+=> using cd command we can change the directory.
+```
+
+<img src="images/32.png">
+
+### 4) write a command to create new file.
+
+```
+=> we can create a new file using 2 command touch & cat
+=> touch <filename>
+=> cat > <filename>
+```
+
+<img src="images/33.png">
+
+### 5) write a command to add some content in a file.
+
+```
+=> we can add the content in file using cat > filename like this
+```
+
+<img src="images/34.png">
+
+```
+=> if we want to add content below the existing content then we can write command like this cat >> second.txt
+```
+
+<img src="images/35.png">
+
+### 6) write a command to find a specific word from a file..
+
+```
+=> for find specific word from file we can use the grep command
+=> grep option “search word” <file name>
+```
+
+<img src="images/36.png">
+
+### 7) write a command to find the size of a file.
+
+```
+=> we can find the size of the file and folder using du –h command like this
+```
+
+<img src="images/37.png">
+
+<img src="images/38.png">
+
+### 8) write a command to rename that file.
+
+```
+=> for rename the file we can use the mv command
+=> mv [old file name] [new file name]
+```
+
+<img src="images/39.png">
+
+### 9) write a command to make a copy of a file with another name.
+
+```
+=> for make a copy of one file to another name we can use the cp command like this.
+=> cp [source filename] [copy filename]
+```
+
+<img src="images/40.png">
+
+### 10) write a command to show the list of files in folder.
+
+```
+=> for the list of file or folder we can use the ls command.
+=> ls command will only show the all files. ls –l command will show all the file with it’s permission like this
+```
+
+<img src="images/41.png">
+
+### 11) write a command to move that file to desktop.
+
+```
+=> for move the file from one folder to desktop we can use the mv command like this.
+=> mv [filename] [destination]
+```
+
+<img src="images/42.png">
+
+
+### 12) write a command to change permissions of the file.
+
+```
+=> for change the file permission we can use the chmod command.
+```
+
+<img src="images/43.png">
+
+```
+=> here we can see the in third.txt file
+ - user has read & write permission.
+ - group has read & write permission.
+ - other user has only read permission.
+=> now let’s change the permission of user. We will remove the write permission from the user and add execute permission like this
+```
+
+<img src="images/44.png">
+
+### 13) write a command to delete file.
+
+```
+=> for delete the file we can use the rm command like this.
+=> rm [file name]
+=> here we will remove the text.txt file using rm command
+```
+
+<img src="images/45.png">
+
+### 14) write a command to delete created folder.
+
+```
+=> for deleting the folder we can use the rmdir command.
+=> using rmdir we can remove those folder which does not contain any files.
+=> here we will remove the test folder.
+```
+
+<img src="images/46.png">
+
+### 15) write a command to command to find a any file on local machine.
+
+```
+=> for finding any file on local machine we can use the find command.
+```
+
+<img src="images/47.png">
+
+### 16) write a command to create a zip of files from specific path on local machine.
+
+```
+=> using zip command we can create a zip file of any folder or file.
+=> zip [zip file name] [existing file name]
+```
+
+<img src="images/48.png">
+
+### 17) write a command to unzip.
+
+```
+=> for unzip the file we can use the unzip command.
+=> unzip [zip folder name]
+```
+
+<img src="images/49.png">
+
+### 18) write a command to download file from specific location on the internet.
+
+```
+=> for download the file from the specific location we can use the wget command.
+=> wget[url]
+```
+
+<img src="images/50.png">
+
+### 19) Write command to see last 10 lines of a file.
+
+```
+=> basically for that we can use the tail command it will bydefault show the last 10 line of the file.
+```
+
+<img src="images/51.png">
+
+### 20) Write command to see history of a file.
+
+```
+=> For getting the file history we can use the stat command.
+```
+
+<img src="images/52.png">
+
+
 
 
