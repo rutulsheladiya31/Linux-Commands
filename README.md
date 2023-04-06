@@ -100,7 +100,7 @@
 ### 10) cat command
 ```
 
-=> Basicallt cat command has a multiple use.
+=> Basically cat command has a multiple use.
 ```
 
 1) create file
